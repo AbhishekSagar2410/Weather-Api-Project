@@ -50,7 +50,7 @@ async function checkCityName(error)
                 cityName.innerText=`${dataInArray[0].name} | ${dataInArray[0].sys.country}`;
                 tempDiv.innerHTML=`<span id="temp">${tempValue} ${supHtml} C</span>
                   ${tempIcon}
-                  <h5 class="my-2" id="maxminTemp">MIN ${minTempValue} | MAX ${maxTempValue} </h5>`;
+                  <h5 class="my-2" id="maxminTemp">MIN ${minTempValue}${supHtml} C  |  MAX ${maxTempValue}${supHtml} C </h5>`;
                 
             
         } catch (error) {

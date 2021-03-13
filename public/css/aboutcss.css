@@ -78,19 +78,22 @@ height: 40rem;
 .weatherspan{
     font-size: 6rem;
     color: #c4d9ff;
+    text-shadow: 2px 2px 2px red;
 }
 
 p{
     color: #fffefe;
     margin-left: auto;
     font-size: 3rem;
+    text-shadow: 2px 2px 2px #384933;
 }
 
 .main-body-left h2{
     text-transform: capitalize;
     color: #fffefe;
-margin-left: auto;
-font-size: 3rem;
+    margin-left: auto;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px #384933;
 }
 
 
@@ -208,6 +211,7 @@ animation: biggerAni 2s infinite;
     p{
         color: black;
     margin-right: auto;
+    text-shadow: 1px 1px 1px #3849
     }
 
     .main-body-left h2{
@@ -215,11 +219,13 @@ animation: biggerAni 2s infinite;
         color: black;
         margin-right: 5rem;
     font-size: 2rem;
+    text-shadow: 1px 1px 1px #3849
     }
 
     .weatherspan{
         font-size: 3rem;
         color: #c4d9ff;
+        text-shadow: 1px 1px 1px red;
     }
 
     

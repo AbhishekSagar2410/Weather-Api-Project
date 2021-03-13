@@ -8,7 +8,7 @@ const path=require('path');
 //variables
 
 
-let port=8000;
+let port= process.env.PORT || 8000;
 
 //paths
 
@@ -55,7 +55,7 @@ app.get('*',(req,res)=>{
 
 
 //listen
-
+// https://get-abhiweather.herokuapp.com/
 app.listen(port , (error)=>{
     console.log('Listening to port 8000')
 })
