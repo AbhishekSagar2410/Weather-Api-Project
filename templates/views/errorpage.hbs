@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+    <link rel="stylesheet" href="css/errorpage.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <!-- navigation bar start -->
+
+    {{>navbar}}
+    <!-- navigation bar end -->
+
+    <!-- main body start -->
+
+    <div class="container-fluid ">
+        <div class="row ">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 col-12 mx-auto main-body-left mx-3">
+                        <figure>
+                            <img src="images/errorimage.png" class="img-fluid" alt="...">
+                        </figure>
+                        <a href="/"><button type="button" class="btn btn-danger backBtn">Go Back</button></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <!-- main body end -->
+
+    <!-- footer start -->
+
+    {{>footer}}
+
+
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

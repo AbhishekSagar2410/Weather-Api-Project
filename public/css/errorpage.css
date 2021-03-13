@@ -1,0 +1,121 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+:root{
+    --main-bg:#3c3547;
+    --main-color:white;
+
+}
+html
+{
+    font-size: 62.5%;
+
+}
+
+
+
+.mycontainer{
+    background-color: var(--main-bg);
+}
+
+
+
+
+
+/* body */
+
+.main-body-left{
+    height: 65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.main-body-right{
+    height: 65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.myimages{
+height: 40rem;
+}
+
+.weatherspan{
+    font-size: 3rem;
+    color: cornflowerblue;
+}
+
+
+
+.main-body-left h1{
+    text-transform: capitalize;
+}
+
+.main-body-left .weathertext{
+    font-size: 4rem;
+    line-height:5rem
+}
+
+.main-body-left .clickHereBtn{
+    border: none;
+    padding: 0.8rem 1.8rem;
+    
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 20px -5px black;
+    outline: none;
+}
+.main-body-left .clickHereBtn,.backBtn:hover{
+    font-size: 1.5rem;
+    box-shadow: 0 10px 20px -5px rgb(168, 78, 78);
+}
+
+.backBtn{
+    border: none;
+    padding: 0.8rem 1.8rem;
+    
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 20px -5px black;
+    outline: none;
+}
+/* footer */
+
+/* responsive code */
+
+@media(max-width:768px)
+{
+    .main-body-right {
+        height: 40rem;
+    }
+
+    .main-body-left{
+        height: 45rem;
+    }
+
+    .errorImg{
+
+        height: 30rem;
+        width: 37rem;
+    }
+
+}

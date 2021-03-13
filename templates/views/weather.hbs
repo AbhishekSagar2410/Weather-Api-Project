@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{>headerlinks}}
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/weather.css">
+  <title>Weather App</title>
+</head>
+
+<body>
+  <!-- navigation bar start -->
+
+  {{>navbar}}
+
+  <!-- navigation bar end -->
+
+  <!-- main body start -->
+  <div class="container my-body-container">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+          <div class="col-md-6 col-12 mx-auto main-body-left">
+
+            <div class="search-div">
+              <form action="" id="myForm">
+                <input type="text" name="" id="searchCityName" placeholder="Enter Your City Name" autocomplete="off">
+                <input type="submit" id="searchBtn" value="Search">
+              </form>
+            </div>
+
+            <div class="temp_info">
+              <div class="top-layer">
+                <div class="col-2 current" id="currentDate">
+
+                </div>
+                <div class="col-2 current" id="currentDay">
+
+                </div>
+              </div>
+              <div class="bottom-layer">
+                <div id="cityName">
+
+                </div>
+                <div class="bottom-layer-temp-div" id="tempDiv">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+
+  <!-- main body end -->
+
+  <!-- footer start -->
+
+  {{>footer}}
+
+
+  <script src="js/main.js"></script>
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

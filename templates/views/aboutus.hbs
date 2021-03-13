@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/aboutcss.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <!-- navigation bar start -->
+
+    {{>navbar}}
+
+    <!-- navigation bar end -->
+
+    <!-- main body start -->
+    <div class="container-fluid my-body-container">
+        <div class="row ">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+
+                    <div class="col-md-6 col-12 align-self-center main-body-left ">
+
+                        <p>Hey, <span class="weatherspan">This is Abhishek.</span></p>
+
+                        <h2>I am a <span class="skillSpan">MERN developer</span> and</h2>
+                        <h2><span class="skillSpan">competitive programmer.</span></h2>
+                        <div class="linkdinDiv">
+                            <h2>Connect to me on linkdin</h2>
+
+                            <div class="linkdinDivMain">
+                                <a href="https://www.linkedin.com/in/abhishek-sagar-5275521b8/" target="_blank">
+                                <button type="button" class="btn linkdinDivIcon"><i class="fab fa-linkedin linkdinIcon"></i></button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- main body end -->
+
+    <!-- footer start -->
+
+    {{>footer}}
+
+
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

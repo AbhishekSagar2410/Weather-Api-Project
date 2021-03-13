@@ -1,0 +1,31 @@
+footer{
+    
+    width: 100%;
+    margin-top: auto;
+      background-color: var(--main-bg);
+      color: white;
+  }
+
+  .footerrow{
+    width: 98vw;
+  }
+  
+  .footerDiv{
+      font-size: 1.5rem;
+  
+      
+  }
+  
+  .myconnecticon{
+      color: black;
+      font-size: 2.3rem;
+      margin: 1.2rem 0rem 0rem 5rem;
+  }
+  
+  .connectspan{
+      margin-left: auto;
+  }
+
+/* .footer-right, .footer-left{
+    padding: 0rem;
+} */
